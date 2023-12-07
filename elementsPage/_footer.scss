@@ -1,0 +1,17 @@
+@import "../vars";
+
+footer {
+  background-color: lightgrey;
+  grid-area: 3/1/4/3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  .footersection {
+    background-color: rgb(241, 235, 235);
+    height: 80%;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+}

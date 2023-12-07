@@ -1,0 +1,9 @@
+@import "../vars";
+
+header {
+  background-color: lightgrey;
+  grid-area: 1/1/2/3;
+  h1 {
+    text-align: center;
+  }
+}
